@@ -3,7 +3,7 @@
 * compile command
 *          $ gcc -o game_controller game_controller.c pwm.c encoder.c -lgpiod
 */
-
+/*
 #define _GNU_SOURCE
 
 #include <stdio.h>
@@ -75,10 +75,6 @@ int main(void)
     {
         ssize_t bytes = read(fd, &ev, sizeof(ev));
         
-        /*if(BTN_DPAD_UP){
-            
-        }*/
-
         if (bytes < 0)
         {
             perror("read");
@@ -170,3 +166,4 @@ int main(void)
     close(fd);
     return EXIT_SUCCESS;
 }
+    */
